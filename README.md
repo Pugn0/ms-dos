@@ -16,4 +16,4 @@ Cole ``"C:\Program Files\Charles"`` sem aspas.
 
 Não equeça que no final deverá colocar este diretório no Path
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/r2eLHiwwcSo/0.jpg)](https://www.youtube.com/watch?v=r2eLHiwwcSo)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/V407GRBGZ8s/0.jpg)](https://www.youtube.com/watch?v=V407GRBGZ8s)
