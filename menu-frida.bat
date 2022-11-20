@@ -92,8 +92,6 @@ echo Configuracoes de proxy limpa
 goto menu
 
 :opcao7
-cls
-color 8
 start start-cahrles.vbs
 goto menu
 
