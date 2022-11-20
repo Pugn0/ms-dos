@@ -86,6 +86,7 @@ cls
 adb shell settings delete global http_proxy
 adb shell settings delete global global_http_proxy_host
 adb shell settings delete global global_http_proxy_port
+adb shell settings put global http_proxy :0
 cls
 color a
 echo Configuracoes de proxy limpa
