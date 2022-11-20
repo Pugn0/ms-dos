@@ -15,7 +15,8 @@ echo * 3. Remover Frida Server          *
 echo * 4. Instalar Frida Tools          * 
 echo * 5. Ativar Proxy                  * 
 echo * 6. Limpar Proxy                  * 
-echo * 7. Sair                          * 
+echo * 7. Iniciar Charles               * 
+echo * 8. Sair                          * 
 echo  ==================================
 
 set /p opcao= ESCOLHA [1] [2] [3] [4] [5] [6] [7]: 
@@ -28,6 +29,7 @@ if %opcao% equ 4 goto opcao4
 if %opcao% equ 5 goto opcao5 
 if %opcao% equ 6 goto opcao6 
 if %opcao% equ 7 goto opcao7
+if %opcao% equ 8 goto opcao8
 
 
 :opcao1
@@ -90,5 +92,11 @@ echo Configuracoes de proxy limpa
 goto menu
 
 :opcao7
+cls
+color 8
+start start-cahrles.vbs
+goto menu
+
+:opcao8
 cls
 exit
