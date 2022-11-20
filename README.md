@@ -1,13 +1,13 @@
-Este conjuto de scripts foram desenvolvidos para automatizar os seguintes processos<br>
-Abrir charles
-Configurar proxy no android e limpar
-Iniciar o frida-server
-Instalar ou Remover o frida-server
+Este conjuto de scripts foram desenvolvidos para automatizar os seguintes processos:<br>
+* Abrir charles
+* Iniciar o frida-server
+* Instalar ou Remover o frida-server
+* Configurar proxy no android e limpar
 
 # Configuração 
-Você devera configura as variáveis de ambiente para que o scritp funcione normalmente 
-basta colar este comando no cmd
-``path="C:\Program Files\Charles"``
+Você devera configura as variáveis de ambiente para que o scritp funcione normalmente, para isso, copie o comando abaixo e cole no cmd<br>
+``path="C:\Program Files\Charles"``<br>
+
 
 caso não funcione adicione manualmente:
 > Clique com o botão direito do mouse em:<br>
