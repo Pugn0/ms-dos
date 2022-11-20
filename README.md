@@ -17,6 +17,7 @@ Cole ``"C:\Program Files\Charles"`` sem aspas.
 Não equeça que no final deverá colocar este diretório no Path
 
 <h3>VÍDEO PREVIEW </h3>
+Este é um vídeo privado. Somente inscitos podem assitir
 <a href="https://www.youtube.com/watch?v=V407GRBGZ8s" target="_blank">
   <div>
     <img align="center" alt="Zac-PHP" height="220" width="420" src="https://raw.githubusercontent.com/Pugn0/arquivos/main/yt-script-automacao.png">
