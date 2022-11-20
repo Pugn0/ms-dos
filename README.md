@@ -15,3 +15,5 @@ caso não funcione adicione manualmente:
 Cole ``"C:\Program Files\Charles"`` sem aspas.
 
 Não equeça que no final deverá colocar este diretório no Path
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/r2eLHiwwcSo/0.jpg)](https://www.youtube.com/watch?v=r2eLHiwwcSo)
