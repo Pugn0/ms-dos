@@ -7,22 +7,28 @@ color d
 date /t
 
 echo Computador: %computername%        Usuario: %username%
-echo 	      Menu Frida
+echo 	      M E N U
 echo  ==================================
 echo * 1. Iniciar Frida Server          *
 echo * 2. Instalar Frida Server         * 
 echo * 3. Remover Frida Server          *
-echo * 4. Sair                          * 
+echo * 4. Instalar Frida Tools          * 
+echo * 5. Ativar Proxy                  * 
+echo * 6. Limpar Proxy                  * 
+echo * 7. Sair                          * 
 echo  ==================================
-echo                           by: Pugno
 
-set /p opcao= Escolha uma opcao: 
+set /p opcao= ESCOLHA [1] [2] [3] [4] [5] [6] [7]: 
+echo                                    by: Pugno
 echo ------------------------------
 if %opcao% equ 1 goto opcao1
 if %opcao% equ 2 goto opcao2
 if %opcao% equ 3 goto opcao3
 if %opcao% equ 4 goto opcao4
-if %opcao% equ 5 goto opcao5
+if %opcao% equ 5 goto opcao5 
+if %opcao% equ 6 goto opcao6 
+if %opcao% equ 7 goto opcao7
+
 
 :opcao1
 color a
@@ -55,11 +61,34 @@ goto menu
 
 :opcao4
 cls
-exit
-
-:opcao5
-echo ==============================================
-echo * Opcao Invalida! Escolha outra opcao do menu *
-echo ==============================================
+pip install frida-tools
 pause
 goto menu
+
+:opcao5
+cls
+color 6
+ipconfig | findstr IPv4
+echo ------------------------------------------------------------
+SET /p ip= Cole Endereco IPv4 aqui: 
+adb shell settings put global http_proxy %ip%:8888
+color a
+cls
+echo OK
+adb shell settings get global http_proxy
+pause
+goto menu
+
+:opcao6
+cls
+adb shell settings delete global http_proxy
+adb shell settings delete global global_http_proxy_host
+adb shell settings delete global global_http_proxy_port
+cls
+color a
+echo Configuracoes de proxy limpa
+goto menu
+
+:opcao7
+cls
+exit
