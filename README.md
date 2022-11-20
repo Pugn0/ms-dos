@@ -19,6 +19,7 @@ Não equeça que no final deverá colocar este diretório no Path
 <h3>VÍDEO PREVIEW </h3>
 <a href="https://www.youtube.com/watch?v=V407GRBGZ8s" target="_blank">
   <div>
-    <img align="center" alt="Zac-PHP" height="220" width="420" src="https://raw.githubusercontent.com/Pugn0/arquivos/main/yt-script-automacao.png">
+    <img align="center" alt="Zac-PHP" height="220" width="420" src="https://raw.githubusercontent.com/Pugn0/arquivos/main/yt-script-automacao.png"
+         target="_blank">
   </div>
   <br>
